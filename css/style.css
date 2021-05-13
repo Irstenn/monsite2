@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/* font-family: 'News Cycle', sans-serif; */
+body, html{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'News Cycle', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.container-fluid{
+	padding: 0;
+}
+
+/* header */
+.header{
+	background-color: #3076B3;
+	height: 70px;
+	line-height: 70px;
+}
+.logo{
+	color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+.menu{
+	float: right;
+}
+
+.menu a{
+	color: #ffffff;
+	margin-right: 20px;
+}
+.menu a:hover{
+	color: yellow;
+}
+/* fin header */
+
+
+/* banniere */
+.banner{
+	width: 100%;
+	max-width: 100%;
+}
+.ban{
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+}
+.ban img{
+	width: 100%;
+	max-width: 100%;
+}
+.inner-banner{
+	position: absolute;
+	top: 200;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+.inner-banner h1{
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #ffffff;
+}
+.inner-banner .btn-custom{
+	background-color: #3076B3;
+	color: #ffffff;
+}
+.inner-banner .btn-custom:hover{
+	background-color: green;
+}
+/*fin banniere*/
+
+
+/* second banniere*/
+.changemon {
+    height: 31px;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-color: #3076B3;
+	line-height: 35px;
+	display: flex;
+}
+
+.centerstrip {
+    margin: 0 auto;
+    width: 1000px;
+}
+.searchsite {
+    width: 350px;
+    float: left;
+}
+.cmon {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 36px;
+    width: 650px;
+    font-weight: 300;
+    font-size: 12px;
+    float: right;
+}
+.barre{
+	margin: 4px 17px 0 17px;
+}
+img{
+	border:0;
+}
+.cmon li a {
+    float: right;
+    display: inline-block;
+    padding: 0 0px;
+    line-height: 36px;
+    color: #FFF;
+    text-align: center;
+    align-content: center;
+}
+.site-container h1{
+	text-align: center;
+
+}
+.card{
+	padding: 0px;
+	margin: 0px;
+}
+.card-header{
+	text-align: center;
+width: 100%;
+}
+.row ul,li{
+	text-decoration: none;
+
+}
+.card-body{
+	text-decoration: none;
+}
+.container{
+	margin: 10px;
+	width: 100%;
+}
+.card{
+	width: 100%;
+}
+.card-columns{
+	margin: 10px;
+}
